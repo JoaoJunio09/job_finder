@@ -1,6 +1,6 @@
-const express = require('express');
+import express from 'express';
 const app = express();
-const db = require('./db/connection');
+import db from './db/connection';
 
 const PORT = 3000;
 
